@@ -85,7 +85,7 @@ A: To reset the device, hold the power button for 10 seconds...
 You can replace it with any .txt file you want your bot to learn from.
 
 
-For help: Open a pull request or create an issue – happy to help! 😁
+**For help:** Open a pull request or create an issue – happy to help! 😁
 
 What are you waiting for...? Jump into the code and start asking questions!
 As usual, for any doubt or query – see you in the pull request section 😁😂
