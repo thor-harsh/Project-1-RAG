@@ -31,7 +31,7 @@ Install the required packages using pip:
 pip install langchain langchain-openai chromadb python-dotenv colorama
 ```
 
-📂 Folder Structure
+### Folder Structure
 ```bash
 .
 ├── docs/
@@ -40,13 +40,13 @@ pip install langchain langchain-openai chromadb python-dotenv colorama
 ├── .env                       # Store OpenAI API key here
 ```
 
-.env File Format
+### .env File Format
 Create a .env file in the root directory and add your OpenAI API key:
 ```bash
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 
-How the Bot Works – Step by Step
+### How the Bot Works – Step by Step
 
 1. Loads a text file using TextLoader
 2. Splits it into manageable chunks using CharacterTextSplitter
@@ -56,7 +56,7 @@ How the Bot Works – Step by Step
 6. Sends it to OpenAI to get a natural language answer
 7. Boom! 🎉 You get your answer in the CLI
 
-▶️ How to Run the Project
+### How to Run the Project
 Just run the script:
 ```bash
 python main.py
@@ -66,7 +66,7 @@ Then follow the CLI prompts:
 2. Press [2] to exit
 3. Press x during a Q&A to go back to the main menu
 
-Example Interaction
+### Example Interaction
 ```bash
 MENU
 ====
@@ -81,7 +81,7 @@ A: To reset the device, hold the power button for 10 seconds...
 -------------------------------------------------
 ```
 
-Note: Before running the code, make sure you have a valid user-manual.txt inside the /docs folder.
+**Note:** Before running the code, make sure you have a valid user-manual.txt inside the /docs folder.
 You can replace it with any .txt file you want your bot to learn from.
 
 
