@@ -1,5 +1,4 @@
-# Project-1-RAG  
-# LangChain-Text-QnA-Bot 🤖💬
+## Project-1-RAG(LangChain-Text-QnA-Bot 🤖💬)
 
 **In this project, we’re building a _Text QnA Bot_ using LangChain + OpenAI + ChromaDB!**  
 **This bot reads a user manual (or any `.txt` document), breaks it into smart chunks, turns it into embeddings, and then uses those to answer your queries.**  
@@ -30,6 +29,7 @@ Install the required packages using pip:
 
 ```bash
 pip install langchain langchain-openai chromadb python-dotenv colorama
+```
 
 📂 Folder Structure
 ```bash
@@ -38,3 +38,4 @@ pip install langchain langchain-openai chromadb python-dotenv colorama
 │   └── user-manual.txt        # Source document
 ├── main.py                    # Your chatbot code
 ├── .env                       # Store OpenAI API key here
+```
